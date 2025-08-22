@@ -56,7 +56,7 @@ Push logs to S3 manually
 aws s3 cp ~/.pm2/logs/app-out.log s3://my-travifai-logs/
 aws s3 cp ~/.pm2/logs/app-error.log s3://my-travifai-logs/
 ```
-
+you can set cronjob here which syncs your logs according the time you set
 
 
 
