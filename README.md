@@ -46,6 +46,7 @@ For your app app, you’ll have two log files:
 app-out.log → Standard output (console logs)
 
 app-error.log → Error logs
+
  create bucket:
  ```bash
 aws s3 mb s3://my-travifai-logs
