@@ -23,11 +23,13 @@ Allow inbound traffic
 open 3000
 
 ---
+
 2. GitHub Actions Auto-Deploy
 
 Configured .github/workflows/deploy.yml
 
 On every push to main, code is deployed to EC2.
+
 ---
 3.Access the application:
 ```bash
