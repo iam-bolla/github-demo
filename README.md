@@ -9,7 +9,7 @@
   sudo apt update -y
   sudo apt install -y nodejs npm
   sudo npm install -g pm2
-```
+  ```
 ---
 Clone repo and run:
 
