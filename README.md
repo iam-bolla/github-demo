@@ -24,18 +24,17 @@ open 3000
 
 ---
 
-2. GitHub Actions Auto-Deploy
-
+###2. GitHub Actions Auto-Deploy
 Configured .github/workflows/deploy.yml
 
 On every push to main, code is deployed to EC2.
 
 ---
-3.Access the application:
+###3.Access the application:
 ```bash
 http://<EC2-public-ip>:3000
 ```
-4.Create a bucket through aws cli by configuring acess keys and secret access key:
+###4.Create a bucket through aws cli by configuring acess keys and secret access key:
 This bucket stores log files you can set cronjob 
 PM2 saves logs by default in:
 ```bash
