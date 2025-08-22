@@ -19,7 +19,7 @@ cd repo
 npm install
 pm2 start app.js --name app
 ```
-Allow inbound tarffic
+Allow inbound traffic
 open 3000
 
 ---
