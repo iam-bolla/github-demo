@@ -49,7 +49,7 @@ app-error.log → Error logs
  ```bash
 aws s3 mb s3://my-travifai-logs
 ```
-Push logs to S3 manually
+Push logs to S3 
 ```bash
 aws s3 cp ~/.pm2/logs/app-out.log s3://my-travifai-logs/
 aws s3 cp ~/.pm2/logs/app-error.log s3://my-travifai-logs/
